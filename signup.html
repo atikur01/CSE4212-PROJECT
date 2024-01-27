@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/home.css">
-    <title>JOBBOARD</title>
+    <link rel="stylesheet" href="assets/signup.css">
+    <title>Sign Up - Job Circulars</title>
 </head>
 <body>
 
     <!-- Navigation Bar -->
     <nav>
         <div class="container">
-            <h1>JBOBBOARD</h1>
+            <h1>Job Circulars</h1>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Browse Jobs</a></li>
@@ -21,19 +21,27 @@
         </div>
     </nav>
 
-    <!-- Job Search Box -->
-    <section  class="job-search">
+    <!-- Sign Up Form -->
+    <section class="signup-form">
         <div class="container">
-            <h2>Find Your Dream Job</h2>
+            <h2>Create an Account</h2>
             <form>
-                <input type="text" placeholder="Enter job title, keywords, or company">
-                <button type="submit">Search</button>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Sign Up</button>
             </form>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer >
+    <footer>
         <div class="container">
             <p>&copy; 2024 Job Circulars. All rights reserved.</p>
         </div>
